@@ -2,7 +2,7 @@ import { NextPage } from "next";
 
 const Footer: NextPage = () => {
   return (
-    <div className="bg-[#43474d] ">
+    <div className="bg-[#43474d]  text-[#d1d9e1] ">
       <div className="flex gap-20 text-[#d1d9e1]  px-4 py-32 ">
         <div className=" flex flex-col gap-8 ">
           <h1 className="text-lg"> quick contact</h1>
@@ -21,7 +21,7 @@ const Footer: NextPage = () => {
             </button>
           </div>
         </div>
-        <div className="bg-red-100 h-[18rem] w-0.5 mx-10 overflow-y-hidden">
+        <div className="bg-white h-[18rem] bg-opacity-20 w-0.5 mx-10 overflow-y-hidden">
           {" "}
         </div>
         <div className="flex flex-col gap-8">
@@ -61,8 +61,8 @@ const Footer: NextPage = () => {
             <h1>Buy Venedor</h1>
           </div>
         </div>
-
-        {/* <div>
+      </div>
+      <div className="flex justify-between py-4 items-center px-4">
         <div>
           <h1>COOKIES INFORMATION</h1>
           <p>Easy returns. Free shipping on orders over $100.</p>
@@ -70,7 +70,6 @@ const Footer: NextPage = () => {
         <div>
           <h1>Socials</h1>
         </div>
-      </div> */}
       </div>
     </div>
   );
