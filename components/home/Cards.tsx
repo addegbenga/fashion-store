@@ -7,16 +7,9 @@ type myType = {
   background?: string;
   color?: string;
 };
-export default function Cards({
-  children,
-  height,
-  width,
-  background,
-  color,
-}: myType) {
+export default function Cards({ children, width, background, color }: myType) {
   return (
     <div
-      // className={`h-[${height}rem] md:h-full`}
       style={{
         backgroundImage: `url(${background})`,
         backgroundRepeat: "no-repeat",
