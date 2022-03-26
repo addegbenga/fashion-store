@@ -1,4 +1,3 @@
-import { url } from "inspector";
 import React from "react";
 
 type myType = {
@@ -17,6 +16,7 @@ export default function Cards({
 }: myType) {
   return (
     <div
+      // className={`h-[${height}rem] md:h-full`}
       style={{
         backgroundImage: `url(${background})`,
         backgroundRepeat: "no-repeat",

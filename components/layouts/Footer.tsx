@@ -3,17 +3,17 @@ import { NextPage } from "next";
 const Footer: NextPage = () => {
   return (
     <div className="bg-[#43474d]  text-[#d1d9e1] ">
-      <div className="flex gap-20 text-[#d1d9e1]  px-4 py-32 ">
+      <div className="flex flex-col md:flex-row gap-20 text-[#d1d9e1]  px-4 py-32 ">
         <div className=" flex flex-col gap-8 ">
           <h1 className="text-lg"> quick contact</h1>
           <div className="flex flex-col gap-2 items-start justify-center">
             <input
-              className="p-2 grid bg-transparent border w-[30rem]  "
+              className="p-2 grid bg-transparent border w-full md:w-[30rem]  "
               type="text"
               placeholder="Enter  your e-mail*"
             />
             <textarea
-              className="grid bg-transparent border p-2  w-[30rem] h-[6rem]"
+              className="grid bg-transparent border p-2 w-full md:w-[30rem] h-[6rem]"
               placeholder="Write your review"
             ></textarea>
             <button className="text-sm mt-2 font-semibold">
@@ -21,7 +21,7 @@ const Footer: NextPage = () => {
             </button>
           </div>
         </div>
-        <div className="bg-white h-[18rem] bg-opacity-20 w-0.5 mx-10 overflow-y-hidden">
+        <div className="bg-white h-[18rem] hidden md:flex bg-opacity-20 w-0.5 mx-10 overflow-y-hidden">
           {" "}
         </div>
         <div className="flex flex-col gap-8">
