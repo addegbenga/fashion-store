@@ -32,6 +32,7 @@ const MySwiper = ({}) => {
           background: "url(/assets/slide_1.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          backgroundPositionX: "center",
         }}
         className="h-full bg-red-100  flex justify-center items-center  "
       >
@@ -62,55 +63,65 @@ const MySwiper = ({}) => {
       </SwiperSlide>
       <SwiperSlide
         style={{
-          background: "url(/assets/slide_1.jpg)",
+          background: "url(/assets/slide_2.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          backgroundPositionX: "center",
         }}
-        className="h-full bg-red-100 m-auto  flex justify-center items-center  "
+        className="h-full bg-red-100  flex justify-center items-center  "
       >
         {({ isActive }) => (
           <div className="relative ">
             <div
               className={
                 isActive
-                  ? "opacity-100   transition transform  ease-in-out delay-500  duration-700 "
-                  : "h-[25rem] opacity-0 transform  transition ease-in-out delay-500  duration-700  md:h-full"
+                  ? "opacity-100     ease-in-out delay-500  duration-700 "
+                  : "h-[25rem] opacity-0 ease-in-out delay-500  duration-700  md:h-full"
               }
             >
               {/* <h1>Timeless Design</h1> */}
-              <div className=" transform transition m-auto   text-white z-10 gap-3 flex flex-col justify-center items-center   ">
-                <h1 className="text-[10rem] font-bold leading-[8rem]">300+</h1>
-                <h1 className="text-2xl text-center">NEW STYLES JUST LANDED</h1>
-                <button className="bg-[#b99d6b] w-11/12 p-2">
+              <div className="  text-white z-10 gap-4 flex flex-col justify-center items-center   ">
+                <h1 className="lg:text-[10rem] text-7xl font-bold lg:leading-[8rem]">
+                  300+
+                </h1>
+                <h1 className="md:text-2xl text-sm text-center">
+                  NEW STYLES JUST LANDED
+                </h1>
+                <button className="bg-[#b99d6b] text-sm md:text-base w-11/12 p-2">
                   TAKE A LOOK
                 </button>
               </div>
             </div>
           </div>
         )}
-      </SwiperSlide>
+      </SwiperSlide>{" "}
       <SwiperSlide
         style={{
-          background: "url(/assets/slide_1.jpg)",
+          background: "url(/assets/slide_3.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          backgroundPositionX: "center",
         }}
-        className="h-full bg-red-100 m-auto  flex justify-center items-center  "
+        className="h-full bg-red-100  flex justify-center items-center  "
       >
         {({ isActive }) => (
           <div className="relative ">
             <div
               className={
                 isActive
-                  ? "opacity-100   transition transform  ease-in-out delay-500  duration-700 "
-                  : "h-[25rem] opacity-0 transform  transition ease-in-out delay-500  duration-700  md:h-full"
+                  ? "opacity-100     ease-in-out delay-500  duration-700 "
+                  : "h-[25rem] opacity-0 ease-in-out delay-500  duration-700  md:h-full"
               }
             >
               {/* <h1>Timeless Design</h1> */}
-              <div className=" transform transition m-auto   text-white z-10 gap-3 flex flex-col justify-center items-center   ">
-                <h1 className="text-[10rem] font-bold leading-[8rem]">300+</h1>
-                <h1 className="text-2xl text-center">NEW STYLES JUST LANDED</h1>
-                <button className="bg-[#b99d6b] w-11/12 p-2">
+              <div className="  text-white z-10 gap-4 flex flex-col justify-center items-center   ">
+                <h1 className="lg:text-[10rem] text-7xl font-bold lg:leading-[8rem]">
+                  300+
+                </h1>
+                <h1 className="md:text-2xl text-sm text-center">
+                  NEW STYLES JUST LANDED
+                </h1>
+                <button className="bg-[#b99d6b] text-sm md:text-base w-11/12 p-2">
                   TAKE A LOOK
                 </button>
               </div>
@@ -127,7 +138,7 @@ const MySwiper1 = ({}) => {
     <Swiper
       style={{ height: "100%", width: "100%" }}
       autoplay={{
-        delay: 5000,
+        delay: 7000,
         disableOnInteraction: false,
       }}
       effect="fade"
@@ -143,9 +154,10 @@ const MySwiper1 = ({}) => {
     >
       <SwiperSlide
         style={{
-          background: "url(/assets/slide_1.jpg)",
+          background: "url(/assets/slide_2.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          backgroundPositionX: "center",
         }}
         className="h-full bg-red-100  flex justify-center items-center  "
       >
@@ -154,15 +166,19 @@ const MySwiper1 = ({}) => {
             <div
               className={
                 isActive
-                  ? "opacity-100     ease-in-out delay-500  duration-700 "
-                  : "h-[25rem] opacity-0 ease-in-out delay-500  duration-700  md:h-full"
+                  ? "opacity-100     ease-in-out delay-200  duration-700 "
+                  : "h-[25rem] opacity-0  ease-in-out delay-100  duration-700  md:h-full"
               }
             >
               {/* <h1>Timeless Design</h1> */}
-              <div className="  text-white z-10 gap-3 flex flex-col justify-center items-center   ">
-                <h1 className="text-[10rem] font-bold leading-[8rem]">300+</h1>
-                <h1 className="text-2xl text-center">NEW STYLES JUST LANDED</h1>
-                <button className="bg-[#b99d6b] w-11/12 p-2">
+              <div className="  text-white z-10 gap-4 flex flex-col justify-center items-center   ">
+                <h1 className="lg:text-[10rem] text-7xl font-bold lg:leading-[8rem]">
+                  300+
+                </h1>
+                <h1 className="md:text-2xl text-sm text-center">
+                  NEW STYLES JUST LANDED
+                </h1>
+                <button className="bg-[#b99d6b] text-sm md:text-base w-11/12 p-2">
                   TAKE A LOOK
                 </button>
               </div>
@@ -172,9 +188,10 @@ const MySwiper1 = ({}) => {
       </SwiperSlide>
       <SwiperSlide
         style={{
-          background: "url(/assets/slide_1.jpg)",
+          background: "url(/assets/slide_7_1000x.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          backgroundPositionX: "center",
         }}
         className="h-full bg-red-100  flex justify-center items-center  "
       >
@@ -183,15 +200,53 @@ const MySwiper1 = ({}) => {
             <div
               className={
                 isActive
-                  ? "opacity-100     ease-in-out delay-500  duration-700 "
-                  : "h-[25rem] opacity-0 ease-in-out delay-500  duration-700  "
+                  ? "opacity-100     ease-in-out delay-200  duration-700 "
+                  : "h-[25rem]  opacity-0 ease-in-out delay-100  duration-700  md:h-full"
               }
             >
               {/* <h1>Timeless Design</h1> */}
-              <div className="  text-white z-10 gap-3 flex flex-col justify-center items-center   ">
-                <h1 className="text-[10rem] font-bold leading-[8rem]">300+</h1>
-                <h1 className="text-2xl text-center">NEW STYLES JUST LANDED</h1>
-                <button className="bg-[#b99d6b] w-11/12 p-2">
+              <div className="  text-white z-10 gap-4 flex flex-col justify-center items-center   ">
+                <h1 className="lg:text-[10rem] text-7xl font-bold lg:leading-[8rem]">
+                  300+
+                </h1>
+                <h1 className="md:text-2xl text-sm text-center">
+                  NEW STYLES JUST LANDED
+                </h1>
+                <button className="bg-[#b99d6b] text-sm md:text-base w-11/12 p-2">
+                  TAKE A LOOK
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+      </SwiperSlide>
+      <SwiperSlide
+        style={{
+          background: "url(/assets/slide_8_1000x.jpg)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPositionX: "center",
+        }}
+        className="h-full bg-red-100  flex justify-center items-center  "
+      >
+        {({ isActive }) => (
+          <div className="relative ">
+            <div
+              className={
+                isActive
+                  ? "opacity-100     ease-in-out delay-200  duration-700 "
+                  : "h-[25rem]  opacity-0 ease-in-out delay-100  duration-700  md:h-full"
+              }
+            >
+              {/* <h1>Timeless Design</h1> */}
+              <div className="  text-white z-10 gap-4 flex flex-col justify-center items-center   ">
+                <h1 className="lg:text-[10rem] text-7xl font-bold lg:leading-[8rem]">
+                  300+
+                </h1>
+                <h1 className="md:text-2xl text-sm text-center">
+                  NEW STYLES JUST LANDED
+                </h1>
+                <button className="bg-[#b99d6b] text-sm md:text-base w-11/12 p-2">
                   TAKE A LOOK
                 </button>
               </div>

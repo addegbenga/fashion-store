@@ -29,7 +29,9 @@ export default function Gridx1() {
                     layout="fixed"
                     alt="logo"
                   />
-                  <h1 className="text-white text-4xl ">Share you story</h1>
+                  <h1 className="text-white text-2xl md:text-4xl ">
+                    Share you story
+                  </h1>
                   <span className="text-white">#insta_vendor</span>
                 </div>
               </Cards>
@@ -49,7 +51,7 @@ export default function Gridx1() {
                   background="/assets/slide_4_600x.jpg"
                 >
                   <div className="md:h-full h-[28rem]">
-                    <h1>Share you story</h1>
+                    {/* <h1>Share you story</h1> */}
                   </div>
                 </Cards>
               </div>
