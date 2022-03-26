@@ -45,10 +45,14 @@ const MySwiper = ({}) => {
               }
             >
               {/* <h1>Timeless Design</h1> */}
-              <div className="  text-white z-10 gap-3 flex flex-col justify-center items-center   ">
-                <h1 className="text-[10rem] font-bold leading-[8rem]">300+</h1>
-                <h1 className="text-2xl text-center">NEW STYLES JUST LANDED</h1>
-                <button className="bg-[#b99d6b] w-11/12 p-2">
+              <div className="  text-white z-10 gap-4 flex flex-col justify-center items-center   ">
+                <h1 className="lg:text-[10rem] text-7xl font-bold lg:leading-[8rem]">
+                  300+
+                </h1>
+                <h1 className="md:text-2xl text-sm text-center">
+                  NEW STYLES JUST LANDED
+                </h1>
+                <button className="bg-[#b99d6b] text-sm md:text-base w-11/12 p-2">
                   TAKE A LOOK
                 </button>
               </div>

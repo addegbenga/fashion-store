@@ -10,7 +10,7 @@ export default function Gridx1() {
       <div className="bg-white ">
         <div className=" md:grid gap-1 md:grid-cols-2  md:h-[100vh] mx-1">
           {/* <Cards width={100}> */}
-          <div className="h-[25rem]  md:h-full">
+          <div className="h-[28rem]  md:h-full">
             <MySwiper />
           </div>
           {/* </Cards> */}
