@@ -2,8 +2,6 @@ import React from "react";
 import { RiScissorsFill } from "react-icons/ri";
 import Image from "next/image";
 import Cards from "./Cards";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -38,7 +36,7 @@ export default function Gridx1() {
             </Cards>
             <Cards height={27} width={100} background="/assets/banner_3.jpg">
               <div className="flex text-white justify-center items-center h-[28rem] md:h-full">
-                <h1 className="lg:text-6xl px-20 md:px-0  flex items-center text-2xl tracking-wider text-center font-semibold">
+                <h1 className="lg:text-6xl px-20 md:px-0  flex items-center text-2xl tracking-wider md:tracking-normal text-center font-semibold">
                   TIMELESS DESIGN
                 </h1>
               </div>
