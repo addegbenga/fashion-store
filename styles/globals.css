@@ -23,3 +23,9 @@
 * {
   font-family: "font-awesome-stars";
 }
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}

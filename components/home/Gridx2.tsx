@@ -1,11 +1,12 @@
 import React from "react";
 import { RiScissorsFill } from "react-icons/ri";
+import { MySwiper1 } from "./MySwiper";
 import Cards from "./Cards";
 
 export default function Gridx2() {
   return (
     <div>
-      <div className="grid md:grid-cols-3 gap-1 mt-1 md:h-[75vh]">
+      <div className="md:grid md:grid-cols-3 gap-1 mt-1 md:h-[70vh]  ">
         <div className=" md:grid md:col-span-2 gap-1  ">
           <div className="grid md:row-span-3 gap-1  md:grid-cols-2 ">
             <Cards width={100} height={27} background="/assets/banner_2.jpg">
@@ -46,13 +47,12 @@ export default function Gridx2() {
           </div>
         </div>
 
-        <div className="grid  ">
-          <Cards width={100} height={27} background="/assets/slide_8_1000x.jpg">
-            <div className="md:h-full h-[30rem]">
-              <h1>A RELAXED ELEGANCE</h1>
-            </div>
-          </Cards>
-        </div>
+        <Cards width={100}>
+          <div className=" relative h-[25rem]  md:h-full">
+            <MySwiper1 />
+          </div>
+        </Cards>
+
         <div className="grid md:hidden  ">
           <Cards
             color="#43474d"
