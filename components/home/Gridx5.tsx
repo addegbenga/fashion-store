@@ -9,7 +9,7 @@ export default function Gridx5() {
         <div className="grid gap-1">
           <Cards height={10} color="#ceb180" width={100}>
             <div className="p-4 md:h-full h-[10rem] ">
-              <div className="border flex justify-center items-center text-white h-full">
+              <div className="border flex justify-center md:text-2xl md:tracking-wide items-center text-white h-full">
                 <h1>END OF SEASON SALE</h1>
               </div>
             </div>

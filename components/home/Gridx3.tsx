@@ -1,13 +1,14 @@
 import React from "react";
 import Cards from "./Cards";
+import { MySwiper2 } from "./MySwiper";
 
 export default function Gridx3() {
   return (
     <div>
-      <div className="grid md:grid-cols-2 mt-1 md:h-[75vh]">
+      <div className="md:grid md:grid-cols-2 mt-1 md:h-[80vh]">
         <Cards width={100} height={27} background="/assets/banner_2.jpg">
           <div className="md:h-full h-[28rem]">
-            <h1>A RELAXED ELEGANCE</h1>
+            <MySwiper2 />
           </div>
         </Cards>
         <Cards
